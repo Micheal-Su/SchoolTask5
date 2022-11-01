@@ -13,6 +13,7 @@ import java.io.IOException;
  */
 public class DoGetAndPostServlet extends HttpServlet {
 //    githubtestaa
+//     edit on github
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().write("this is doGet Method,the servlet is created by IntelliJ IDEA");
